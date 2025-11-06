@@ -1,0 +1,16 @@
+
+
+
+.display {
+    height: 30%;
+    width: 100%;
+    transition: all .3s ease;
+    position: relative;
+    & .output {
+        transition: inherit;
+        position: absolute;
+        font-size: 5rem;
+        bottom: -4rem; right: 0rem;
+        text-overflow: ellipsis;
+    }
+}

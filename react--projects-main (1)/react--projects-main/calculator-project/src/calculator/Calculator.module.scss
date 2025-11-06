@@ -1,0 +1,32 @@
+ * .background {z-index: -1; transition:all .3s ease;position: absolute; top: 0; left: 0; width: 100vw; height: 100vh}
+.container {
+  width: 27rem;
+  height: 45rem;
+  border-radius: 1rem; 
+  max-height: 50rem;
+  overflow: hidden;
+  transition: all .2s ease;
+  position: relative;
+  padding: 2rem;
+  box-sizing: border-box;
+  & * {
+    font-family: monospace;
+  }
+}
+.tableResize {
+  @media (min-width: 880px) {
+    width: 50rem;
+    height: 37rem;
+  }
+} .mobileResize {
+   width: 27rem;
+  height: 45rem;
+
+}
+@media (max-width: 1300px) {
+.authorMobile {opacity: 0;}
+}
+@media (max-width: 880px) {
+  .author {opacity: 0}
+}
+.authorLight { color:black} .authorDark{color:white}
